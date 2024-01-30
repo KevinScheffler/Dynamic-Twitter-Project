@@ -1,0 +1,217 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.content-column {
+  width: 700px;
+  /* height: 100vh; */
+  margin: 0 auto;
+  border: 1px solid lightgrey;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.back-arrow {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 10px;
+  left: 3%;
+}
+
+.header-name {
+  margin-left: 90px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.header p {
+  margin-left: 90px;
+  font-size: 14px;
+  color: grey;
+  margin-top: 0;
+}
+
+.cover-photo {
+  /* background-image: url('/assets/elonmusk-cover.jpeg'); */
+  width: 100%;
+  height: 240px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-name, .icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  padding-bottom: 5px;
+}
+
+.avatar-container {
+  position: relative;
+  top: 50px;
+}
+
+
+.avatar-photo {
+  background-image: url('/assets/elonmusk.jpg');
+  width: 160px;
+  height: 160px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: white solid 3px;
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-header-name {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+
+.icon-2 {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  padding-bottom: 5px;
+}
+
+.left-section-username {
+  margin-top: 0;
+  margin-left: 20px;
+  color: grey;
+  margin-bottom: 0;
+}
+
+.join-date-container {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.join-date-calendar {
+  height: 25px;
+  width: 25px;
+}
+
+.join-date {
+  color: grey;
+  padding-left: 5px;
+}
+
+.followersContainer {
+  display: flex;
+  margin-left: 20px;
+}
+
+.boldNumber {
+  font-weight: bold;
+}
+
+.followersText {
+  color: grey;
+  margin-left: 2px;
+}
+
+.followersPair2 {
+  margin-left: 20px;
+}
+
+.profile-details {
+  position: relative;
+}
+
+.following-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 110px;
+  height: 40px;
+  background-color:  #1DA1F2;
+  color: white;
+  font-weight: bold;
+  font-size: 14;
+  border: none;
+  border-radius: 20px;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+.following-btn:hover {
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links a {
+  list-style-type: none;
+  text-decoration: none;
+  margin-right: 30px;
+  margin-top: 40px;
+  font-size: 18px;
+  color: grey;
+  font-weight: bold;
+}
+
+.links a:hover {
+  color: #1DA1F2;
+  border-bottom: 3px solid #1DA1F2;
+}
+
+.tweets-container {
+
+}
+
+
+.tweet-div {
+  border-top: 1px solid lightgrey;
+}
+
+.tweet-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.tweet-profile-info {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.tweet-username {
+  color: grey;
+  font-size: 14px;
+  padding-left: 15px;
+}
+
+.tweet-display-name {
+  padding-left: 12px;
+}
+
+.tweet-text {
+  padding-left: 78px;
+  padding-bottom: 50px;
+}
